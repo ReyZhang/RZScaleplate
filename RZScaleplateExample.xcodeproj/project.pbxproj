@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26E006A1A50F8620011206D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E00691A50F8620011206D /* main.m */; };
+		F26E006D1A50F8620011206D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E006C1A50F8620011206D /* AppDelegate.m */; };
+		F26E00701A50F8620011206D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E006F1A50F8620011206D /* ViewController.m */; };
+		F26E00731A50F8620011206D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26E00711A50F8620011206D /* Main.storyboard */; };
+		F26E00751A50F8630011206D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26E00741A50F8630011206D /* Images.xcassets */; };
+		F26E00781A50F8630011206D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26E00761A50F8630011206D /* LaunchScreen.xib */; };
+		F26E00841A50F8640011206D /* RZScaleplateExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26E00831A50F8640011206D /* RZScaleplateExampleTests.m */; };
+		F2E940E61A50FC7D00BB0155 /* RZScaleplate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E940E11A50FC7D00BB0155 /* RZScaleplate.m */; };
+		F2E940E71A50FC7D00BB0155 /* RZSPLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E940E31A50FC7D00BB0155 /* RZSPLine.m */; };
+		F2E940E81A50FC7D00BB0155 /* RZSPView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E940E51A50FC7D00BB0155 /* RZSPView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26E007E1A50F8630011206D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26E005C1A50F8610011206D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26E00631A50F8620011206D;
+			remoteInfo = RZScaleplateExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F26E00641A50F8620011206D /* RZScaleplateExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZScaleplateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26E00681A50F8620011206D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26E00691A50F8620011206D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26E006B1A50F8620011206D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26E006C1A50F8620011206D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26E006E1A50F8620011206D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F26E006F1A50F8620011206D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26E00721A50F8620011206D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26E00741A50F8630011206D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F26E00771A50F8630011206D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F26E007D1A50F8630011206D /* RZScaleplateExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZScaleplateExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26E00821A50F8630011206D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26E00831A50F8640011206D /* RZScaleplateExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZScaleplateExampleTests.m; sourceTree = "<group>"; };
+		F2E940E01A50FC7D00BB0155 /* RZScaleplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZScaleplate.h; sourceTree = "<group>"; };
+		F2E940E11A50FC7D00BB0155 /* RZScaleplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZScaleplate.m; sourceTree = "<group>"; };
+		F2E940E21A50FC7D00BB0155 /* RZSPLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZSPLine.h; sourceTree = "<group>"; };
+		F2E940E31A50FC7D00BB0155 /* RZSPLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZSPLine.m; sourceTree = "<group>"; };
+		F2E940E41A50FC7D00BB0155 /* RZSPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZSPView.h; sourceTree = "<group>"; };
+		F2E940E51A50FC7D00BB0155 /* RZSPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZSPView.m; sourceTree = "<group>"; };
+		F2E940E91A50FD0900BB0155 /* GeneralEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralEnum.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26E00611A50F8620011206D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26E007A1A50F8630011206D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26E005B1A50F8610011206D = {
+			isa = PBXGroup;
+			children = (
+				F26E00661A50F8620011206D /* RZScaleplateExample */,
+				F26E00801A50F8630011206D /* RZScaleplateExampleTests */,
+				F26E00651A50F8620011206D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26E00651A50F8620011206D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26E00641A50F8620011206D /* RZScaleplateExample.app */,
+				F26E007D1A50F8630011206D /* RZScaleplateExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26E00661A50F8620011206D /* RZScaleplateExample */ = {
+			isa = PBXGroup;
+			children = (
+				F2E940DF1A50FC7D00BB0155 /* RZScaleplate */,
+				F26E006B1A50F8620011206D /* AppDelegate.h */,
+				F26E006C1A50F8620011206D /* AppDelegate.m */,
+				F26E006E1A50F8620011206D /* ViewController.h */,
+				F26E006F1A50F8620011206D /* ViewController.m */,
+				F26E00711A50F8620011206D /* Main.storyboard */,
+				F26E00741A50F8630011206D /* Images.xcassets */,
+				F26E00761A50F8630011206D /* LaunchScreen.xib */,
+				F26E00671A50F8620011206D /* Supporting Files */,
+			);
+			path = RZScaleplateExample;
+			sourceTree = "<group>";
+		};
+		F26E00671A50F8620011206D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26E00681A50F8620011206D /* Info.plist */,
+				F26E00691A50F8620011206D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26E00801A50F8630011206D /* RZScaleplateExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26E00831A50F8640011206D /* RZScaleplateExampleTests.m */,
+				F26E00811A50F8630011206D /* Supporting Files */,
+			);
+			path = RZScaleplateExampleTests;
+			sourceTree = "<group>";
+		};
+		F26E00811A50F8630011206D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26E00821A50F8630011206D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E940DF1A50FC7D00BB0155 /* RZScaleplate */ = {
+			isa = PBXGroup;
+			children = (
+				F2E940E01A50FC7D00BB0155 /* RZScaleplate.h */,
+				F2E940E11A50FC7D00BB0155 /* RZScaleplate.m */,
+				F2E940E21A50FC7D00BB0155 /* RZSPLine.h */,
+				F2E940E31A50FC7D00BB0155 /* RZSPLine.m */,
+				F2E940E41A50FC7D00BB0155 /* RZSPView.h */,
+				F2E940E51A50FC7D00BB0155 /* RZSPView.m */,
+				F2E940E91A50FD0900BB0155 /* GeneralEnum.h */,
+			);
+			path = RZScaleplate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26E00631A50F8620011206D /* RZScaleplateExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26E00871A50F8640011206D /* Build configuration list for PBXNativeTarget "RZScaleplateExample" */;
+			buildPhases = (
+				F26E00601A50F8620011206D /* Sources */,
+				F26E00611A50F8620011206D /* Frameworks */,
+				F26E00621A50F8620011206D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZScaleplateExample;
+			productName = RZScaleplateExample;
+			productReference = F26E00641A50F8620011206D /* RZScaleplateExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26E007C1A50F8630011206D /* RZScaleplateExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26E008A1A50F8640011206D /* Build configuration list for PBXNativeTarget "RZScaleplateExampleTests" */;
+			buildPhases = (
+				F26E00791A50F8630011206D /* Sources */,
+				F26E007A1A50F8630011206D /* Frameworks */,
+				F26E007B1A50F8630011206D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26E007F1A50F8630011206D /* PBXTargetDependency */,
+			);
+			name = RZScaleplateExampleTests;
+			productName = RZScaleplateExampleTests;
+			productReference = F26E007D1A50F8630011206D /* RZScaleplateExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26E005C1A50F8610011206D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Zhang Rey";
+				TargetAttributes = {
+					F26E00631A50F8620011206D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F26E007C1A50F8630011206D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F26E00631A50F8620011206D;
+					};
+				};
+			};
+			buildConfigurationList = F26E005F1A50F8620011206D /* Build configuration list for PBXProject "RZScaleplateExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26E005B1A50F8610011206D;
+			productRefGroup = F26E00651A50F8620011206D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26E00631A50F8620011206D /* RZScaleplateExample */,
+				F26E007C1A50F8630011206D /* RZScaleplateExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26E00621A50F8620011206D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26E00731A50F8620011206D /* Main.storyboard in Resources */,
+				F26E00781A50F8630011206D /* LaunchScreen.xib in Resources */,
+				F26E00751A50F8630011206D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26E007B1A50F8630011206D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26E00601A50F8620011206D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26E00701A50F8620011206D /* ViewController.m in Sources */,
+				F2E940E81A50FC7D00BB0155 /* RZSPView.m in Sources */,
+				F26E006D1A50F8620011206D /* AppDelegate.m in Sources */,
+				F26E006A1A50F8620011206D /* main.m in Sources */,
+				F2E940E61A50FC7D00BB0155 /* RZScaleplate.m in Sources */,
+				F2E940E71A50FC7D00BB0155 /* RZSPLine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26E00791A50F8630011206D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26E00841A50F8640011206D /* RZScaleplateExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26E007F1A50F8630011206D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26E00631A50F8620011206D /* RZScaleplateExample */;
+			targetProxy = F26E007E1A50F8630011206D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F26E00711A50F8620011206D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26E00721A50F8620011206D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F26E00761A50F8630011206D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26E00771A50F8630011206D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26E00851A50F8640011206D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26E00861A50F8640011206D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26E00881A50F8640011206D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RZScaleplateExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RZScaleplate/";
+			};
+			name = Debug;
+		};
+		F26E00891A50F8640011206D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RZScaleplateExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RZScaleplate/";
+			};
+			name = Release;
+		};
+		F26E008B1A50F8640011206D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RZScaleplateExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZScaleplateExample.app/RZScaleplateExample";
+			};
+			name = Debug;
+		};
+		F26E008C1A50F8640011206D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RZScaleplateExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZScaleplateExample.app/RZScaleplateExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26E005F1A50F8620011206D /* Build configuration list for PBXProject "RZScaleplateExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26E00851A50F8640011206D /* Debug */,
+				F26E00861A50F8640011206D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26E00871A50F8640011206D /* Build configuration list for PBXNativeTarget "RZScaleplateExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26E00881A50F8640011206D /* Debug */,
+				F26E00891A50F8640011206D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26E008A1A50F8640011206D /* Build configuration list for PBXNativeTarget "RZScaleplateExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26E008B1A50F8640011206D /* Debug */,
+				F26E008C1A50F8640011206D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26E005C1A50F8610011206D /* Project object */;
+}
