@@ -45,6 +45,19 @@
     return self;
 }
 
+-(id)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super initWithCoder:aDecoder]) {
+        self.oritation=Horizontal;
+        self.miniValue=0.0;
+        self.maxValue=1.0;
+        self.stepValue=0.1;
+        
+        [self layoutBorder];
+        [self initUI];
+    }
+    return self;
+}
+
 -(void)setValueChangedBlock:(void(^)(NSNumber *value))block {
     if (block) {
         self.block=block;

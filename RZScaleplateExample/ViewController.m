@@ -12,6 +12,7 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *ageTF;
 @property (weak, nonatomic) IBOutlet UITextField *heightTF;
+@property (weak, nonatomic) IBOutlet RZScaleplate *sp_xib;
 @property(nonatomic,strong) RZScaleplate *sp_H;
 @property(nonatomic,strong) RZScaleplate *sp_V;
 @end
@@ -53,6 +54,15 @@
     
     [self.view addSubview:self.sp_H];
     [self.view addSubview:self.sp_V];
+    
+    self.sp_xib.backgroundColor=[UIColor clearColor];
+    self.sp_xib.miniValue = 2.1;
+    self.sp_xib.maxValue  = 8.1;
+    self.sp_H.stepValue=0.1;
+    self.sp_xib.value= [NSNumber numberWithFloat:5.4];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

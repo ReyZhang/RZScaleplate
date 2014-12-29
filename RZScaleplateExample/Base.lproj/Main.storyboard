@@ -38,17 +38,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PtG-yZ-pm1" customClass="RZScaleplate">
+                                <rect key="frame" x="108" y="324" width="200" height="47"/>
+                                <color key="backgroundColor" red="0.0" green="0.81568627450980391" blue="0.60149467734786355" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="ageTF" destination="SlN-1d-slt" id="RYz-Tj-2Qr"/>
                         <outlet property="heightTF" destination="mjv-Ec-qpm" id="U5o-RH-oE7"/>
+                        <outlet property="sp_xib" destination="PtG-yZ-pm1" id="lkz-pp-Qoe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="222.93333333333334" y="326.60000000000002"/>
+            <point key="canvasLocation" x="222" y="326"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
