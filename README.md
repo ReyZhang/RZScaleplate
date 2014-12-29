@@ -34,3 +34,18 @@ RZScaleplate *sp_V = [[RZScaleplate alloc]
     }];
     [self.view addSubview:sp_V];
 ```
+Requirements
+============
+RZScaleplate requires either iOS 5.0 and above.
+
+License
+============
+RZScaleplate is available under the MIT license. See the LICENSE file for more info.
+
+ARC
+============
+RZScaleplate uses ARC.
+
+Contact
+============
+[Rey Zhang](http://github.com/ReyZhang) 
