@@ -17,6 +17,7 @@
 		F2E940E61A50FC7D00BB0155 /* RZScaleplate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E940E11A50FC7D00BB0155 /* RZScaleplate.m */; };
 		F2E940E71A50FC7D00BB0155 /* RZSPLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E940E31A50FC7D00BB0155 /* RZSPLine.m */; };
 		F2E940E81A50FC7D00BB0155 /* RZSPView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E940E51A50FC7D00BB0155 /* RZSPView.m */; };
+		F2E940EC1A513D3600BB0155 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E940EB1A513D3600BB0155 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		F2E940E41A50FC7D00BB0155 /* RZSPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZSPView.h; sourceTree = "<group>"; };
 		F2E940E51A50FC7D00BB0155 /* RZSPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZSPView.m; sourceTree = "<group>"; };
 		F2E940E91A50FD0900BB0155 /* GeneralEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralEnum.h; sourceTree = "<group>"; };
+		F2E940EB1A513D3600BB0155 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		F26E00661A50F8620011206D /* RZScaleplateExample */ = {
 			isa = PBXGroup;
 			children = (
+				F2E940EA1A513D3600BB0155 /* Screens */,
 				F2E940DF1A50FC7D00BB0155 /* RZScaleplate */,
 				F26E006B1A50F8620011206D /* AppDelegate.h */,
 				F26E006C1A50F8620011206D /* AppDelegate.m */,
@@ -142,6 +145,14 @@
 				F2E940E91A50FD0900BB0155 /* GeneralEnum.h */,
 			);
 			path = RZScaleplate;
+			sourceTree = "<group>";
+		};
+		F2E940EA1A513D3600BB0155 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F2E940EB1A513D3600BB0155 /* 1.png */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F26E00731A50F8620011206D /* Main.storyboard in Resources */,
+				F2E940EC1A513D3600BB0155 /* 1.png in Resources */,
 				F26E00781A50F8630011206D /* LaunchScreen.xib in Resources */,
 				F26E00751A50F8630011206D /* Images.xcassets in Resources */,
 			);
