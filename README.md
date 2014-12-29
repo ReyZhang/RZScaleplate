@@ -40,7 +40,7 @@ RZScaleplate requires either iOS 5.0 and above.
 
 License
 ============
-RZScaleplate is available under the MIT license. See the LICENSE file for more info.
+RZScaleplate is available under the Apache License. See the LICENSE file for more info.
 
 ARC
 ============
