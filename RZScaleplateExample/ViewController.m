@@ -12,6 +12,7 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *ageTF;
 @property (weak, nonatomic) IBOutlet UITextField *heightTF;
+@property (weak, nonatomic) IBOutlet UITextField *xibTF;
 @property (weak, nonatomic) IBOutlet RZScaleplate *sp_xib;
 @property(nonatomic,strong) RZScaleplate *sp_H;
 @property(nonatomic,strong) RZScaleplate *sp_V;
@@ -21,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    /////水平标尺
     self.sp_H = [[RZScaleplate alloc]
                  initWithFrame:CGRectMake(20 , 120, 250, 50) oritation:Horizontal];
     
@@ -38,13 +39,14 @@
     
     self.ageTF.text=[NSString stringWithFormat:@"%d",[self.sp_H.value intValue]];
     
+    /////垂直标尺
     self.sp_V = [[RZScaleplate alloc]
                  initWithFrame:CGRectMake(20 , 250, 60, 200) oritation:Vertical];
     
     self.sp_V.miniValue=150;
     self.sp_V.maxValue=250;
     self.sp_V.stepValue=1;
-    self.sp_V.value=[NSNumber numberWithFloat:175];
+    self.sp_V.value=[NSNumber numberWithFloat:175]; /////初始值
 
     [self.sp_V setValueChangedBlock:^(NSNumber *value) {
         weakSelf.heightTF.text = [NSString stringWithFormat:@"%d cm",[value intValue]];
@@ -57,12 +59,15 @@
     
     self.sp_xib.backgroundColor=[UIColor clearColor];
     self.sp_xib.miniValue = 2.1;
-    self.sp_xib.maxValue  = 8.1;
-    self.sp_H.stepValue=0.1;
-    self.sp_xib.value= [NSNumber numberWithFloat:5.4];
+    self.sp_xib.maxValue  = 10.1;
+    self.sp_xib.stepValue=0.1;
+    self.sp_xib.value= [NSNumber numberWithFloat:5.5];
+
+    [self.sp_xib setValueChangedBlock:^(NSNumber *value) {
+        weakSelf.xibTF.text= [NSString stringWithFormat:@"%.1f",[value floatValue]];
+    }];
     
-    
-    
+    self.xibTF.text= [NSString stringWithFormat:@"%.1f",[self.sp_xib.value floatValue]];
 }
 
 - (void)didReceiveMemoryWarning {
